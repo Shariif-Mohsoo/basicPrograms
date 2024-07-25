@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moving Button</title>
+    <style>
+      body {
+        height: 100vh;
+        background-color: #000;
+      }
+      .button {
+        border: 0.3px solid green;
+        background-color: palegreen;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 2rem 2.5rem;
+        transition: all 0.3s ease-out;
+      }
+      .button:hover {
+        cursor: pointer;
+        background: linear-gradient(to left, darkgreen, lightgreen, palegreen);
+      }
+    </style>
+  </head>
+  <body>
+    <button class="button">Moving X</button>
+    <script src="script.js"></script>
+  </body>
+</html>

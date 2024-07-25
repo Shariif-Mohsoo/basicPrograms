@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.container {
+  background-image: linear-gradient(to right bottom, #0000009a, #000000d0);
+  padding: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.container__form {
+  background-color: #fff;
+  padding: 4rem;
+  width: 40rem;
+}
+.form {
+  background-color: #fafa;
+  padding: 3rem;
+}
+.heading-1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+.input__block {
+  margin-bottom: 1.4rem;
+  width: 100%;
+}
+.form__input {
+  padding: 1.3rem 1rem;
+  width: 90%;
+  border: none;
+  font-family: "Times New Roman", Times, serif;
+}
+.form__input:focus {
+  outline: none;
+  box-shadow: 0.5rem 0.5rem 1rem #000;
+}
+.form__input::-webkit-input-placeholder {
+  font-family: "Times New Roman", Times, serif;
+}
+.form__label {
+  display: block;
+  font-size: 1.4rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  transition: all 0.3s ease-out;
+}
+.form__input:placeholder-shown + .form__label {
+  transform: translateY(-3rem);
+  opacity: 0;
+}
+.form__button {
+  border: none;
+  padding: 2rem 4rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.form__button:hover {
+  box-shadow: 0 1rem 2rem #000;
+  transform: translateY(-0.3rem);
+}
+.form__button:active {
+  transform: translateY(0);
+}

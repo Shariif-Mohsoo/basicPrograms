@@ -1,0 +1,26 @@
+html {
+  font-size: 62.5%;
+}
+img {
+  width: 100px;
+  position: absolute;
+  /* top: 100px; */
+  left: 10px;
+}
+.coin {
+  height: 5rem;
+  width: 6rem;
+  margin-left: 50px;
+}
+.boy {
+  height: 20rem;
+}
+body {
+  background-image: url(https://t4.ftcdn.net/jpg/03/75/94/07/360_F_375940704_WxGwJzcFhgDbbcAsR1Oz4i5zYN8K0B3M.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  overflow: hidden;
+  z-index: 2000;
+}
